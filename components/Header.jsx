@@ -9,7 +9,7 @@ export default function Header({ name, title, date, url }) {
           <span>{name}</span>
         </a>{' '}
         —{' '}
-        <Link href="/1">
+        <Link legacyBehavior href="/1">
           <a>{title}</a>
         </Link>
       </div>
